@@ -6,7 +6,7 @@
 $(document).foundation();
 
 //initialize SDK
-var sdkPromise = KidaptiveSdk.init("gCQ1NS3T394CU", {version:"1.0.0", build:"1000"});
+var sdkPromise = KidaptiveSdk.init("gPt1fU+pTaNgFv61Qbp3GUiaHsGcu+0h8", {version:"1.0.0", build:"1000"});
 sdkPromise.then(function() {
     updateStatus("SDK successfully initialized", "success");
     $("#content").removeClass("invisible");
